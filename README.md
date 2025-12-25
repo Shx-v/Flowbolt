@@ -1,6 +1,6 @@
 # ⚡ FlowBolt
 
-**FlowBolt** is a Jira-inspired **task & ticket management system** designed to manage projects, tickets, workflows, and team collaboration with strong role-based access control.
+**FlowBolt** is a **task & ticket management system** designed to manage projects, tickets, workflows, and team collaboration with strong role-based access control.
 
 This repository follows a **monorepo structure**:
 - `client/` → Frontend (React + MUI)
@@ -22,7 +22,7 @@ This repository follows a **monorepo structure**:
 - Role-based access control (RBAC)
 
 ### 📊 Dashboard
-- Jira-style dashboards
+- Interactive dashboards
 - Ticket summaries and status breakdowns
 - Clean, responsive UI
 
@@ -66,4 +66,3 @@ This repository follows a **monorepo structure**:
 │   └── pom.xml
 │
 └── README.md
-
