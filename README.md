@@ -1,68 +1,92 @@
 # ⚡ FlowBolt
 
-**FlowBolt** is a **task & ticket management system** designed to manage projects, tickets, workflows, and team collaboration with strong role-based access control.
+**FlowBolt** is a **task & ticket management system** built to manage projects, tickets, workflows, and team collaboration with strong role-based access control.
 
-This repository follows a **monorepo structure**:
-- `client/` → Frontend (React + MUI)
-- `server/` → Backend (Spring Boot / WebFlux)
+It is designed with a **scalable, reactive backend** and a **modern UI**, making it suitable for high-performance team environments.
 
 ---
 
-## ✨ Features
+## 🔗 Repositories
+
+* **Frontend (React + MUI)**
+  👉 https://github.com/Shx-v/Flowbolt-fe
+
+* **Backend (Spring WebFlux)**
+  👉 https://github.com/Shx-v/Flowbolt-be
+
+---
+
+## ✨ Core Features
 
 ### 🗂 Project & Ticket Management
-- Create and manage projects
-- Create tickets and sub-tickets
-- Assign tickets to users
-- Track ticket lifecycle with configurable workflows
 
-### 🔄 Workflow & Permissions
-- Status-based workflow transitions (e.g. `CREATED → ASSIGNED → IN_PROGRESS`)
-- Permission-controlled status changes
-- Role-based access control (RBAC)
+* Create and manage projects
+* Create tickets and sub-tickets
+* Assign tickets to users
+* Track complete ticket lifecycle
 
-### 📊 Dashboard
-- Interactive dashboards
-- Ticket summaries and status breakdowns
-- Clean, responsive UI
+### 🔄 Workflow Engine
 
-### ⚡ Reactive Backend
-- Non-blocking APIs using **Spring WebFlux**
-- Efficient data aggregation using `Mono` / `Flux`
-- Secure authorization & validation logic
+* Enforced workflow rules
+* Flexible and extendable state management
+
+### 🔐 Role-Based Access Control (RBAC)
+
+* Fine-grained permissions
+* Role-to-permission mapping
+* Controlled access to actions and transitions
+
+### 📊 Dashboard & Insights
+
+* Ticket summaries and metrics
+* Status-based breakdowns
+* Clean and responsive UI
+
+### ⚡ Reactive Architecture
+
+* Non-blocking backend using Spring WebFlux
+* Efficient async processing with `Mono` / `Flux`
+* Optimized for scalability and performance
 
 ---
 
 ## 🧱 Tech Stack
 
-### Frontend (`client/`)
-- **React**
-- **Material UI (MUI)** (peer dependency)
-- Custom reusable UI components
-- Responsive & pixel-perfect layouts
+### Frontend
 
-### Backend (`server/`)
-- **Java**
-- **Spring Boot**
-- **Spring WebFlux**
-- Reactive programming (`Mono`, `Flux`)
-- REST APIs
-- Role & permission based authorization
+* React
+* Material UI (MUI)
+* Component-driven architecture
+
+### Backend
+
+* Java
+* Spring Boot
+* Spring WebFlux
+* Reactive programming
+* REST APIs
 
 ---
 
-## 📁 Project Structure
+## 🎯 Vision
 
-```bash
-.
-├── client/               # Frontend application
-│   ├── src/
-│   ├── public/
-│   └── package.json
-│
-├── server/               # Backend application
-│   ├── src/main/java
-│   ├── src/main/resources
-│   └── pom.xml
-│
-└── README.md
+FlowBolt aims to provide a **highly customizable workflow and ticketing system** that can adapt to different business processes while maintaining performance and scalability.
+
+---
+
+## 🚀 Getting Started
+
+Please refer to the individual repositories for setup instructions:
+
+* Frontend setup → https://github.com/Shx-v/Flowbolt-fe
+* Backend setup → https://github.com/Shx-v/Flowbolt-be
+
+---
+
+## 📌 Notes
+
+* Designed with scalability in mind
+* Clean separation of concerns between frontend and backend
+* Extensible architecture for future integrations (Kafka, notifications, etc.)
+
+---
